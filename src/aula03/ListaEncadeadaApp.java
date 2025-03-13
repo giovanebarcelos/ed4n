@@ -22,5 +22,23 @@ public class ListaEncadeadaApp {
         System.out.println("Depois da remoção do 73");
 
         lista.mostrar();
+
+        lista.inserir(new int[]{9, 83, 5});
+        System.out.println("Depois da inserção de 9,83,5");
+
+        lista.mostrar();
+
+        lista.reverter();
+
+        System.out.println("Depois da reversão");
+
+        lista.mostrar();
+
+        lista.reverter1();
+
+        System.out.println("Depois da reversão 1");
+
+        lista.mostrar();
+
     }
 }

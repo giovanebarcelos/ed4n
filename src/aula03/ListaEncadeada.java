@@ -41,4 +41,43 @@ public class ListaEncadeada {
         if (temp == null) return;
         anterior.proximo = temp.proximo;
     }
+
+    public void inserir(int[] dados) {
+        for (int dado: dados){
+            this.inserir(dado);
+        }
+    }
+
+    public void reverter() {
+        Nodo corrente = cabecao, proximo = null,
+                anterior = null;
+
+        while (corrente != null){
+            proximo = corrente.proximo;
+            corrente.proximo = anterior;
+            anterior = corrente;
+            corrente = proximo;
+        }
+        cabecao = anterior;
+    }
+
+    public void reverter1() {
+        Nodo temp = cabecao,
+                novoCabecao = null;
+
+        while (temp != null){
+            Nodo novoNodo = new Nodo(temp.dado);
+
+            if (novoCabecao == null){
+                novoCabecao = novoNodo;
+            } else {
+                novoNodo.proximo = novoCabecao;
+                novoCabecao = novoNodo;
+            }
+
+            temp = temp.proximo;
+        }
+
+        cabecao = novoCabecao;
+    }
 }

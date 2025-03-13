@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc6d2392-6e83-43c2-98d1-e3aadfde0c02" name="Changes" comment="feat: revisão de array e arraylist">
-      <change afterPath="$PROJECT_DIR$/src/aula03/ListaEncadeada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula03/ListaEncadeadaApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula03/Nodo.java" afterDir="false" />
+    <list default="true" id="dc6d2392-6e83-43c2-98d1-e3aadfde0c02" name="Changes" comment="feat: lista encadeada">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula03/ListaEncadeada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula03/ListaEncadeada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula03/ListaEncadeadaApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aula03/ListaEncadeadaApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740614303920</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: lista encadeada">
+      <option name="closed" value="true" />
+      <created>1741822463120</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1741822463120</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -138,6 +145,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: revisão de array e arraylist" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: revisão de array e arraylist" />
+    <MESSAGE value="feat: lista encadeada" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: lista encadeada" />
   </component>
 </project>
