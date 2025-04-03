@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc6d2392-6e83-43c2-98d1-e3aadfde0c02" name="Changes" comment="feat: lista encadeada">
-      <change afterPath="$PROJECT_DIR$/src/aula04/ArvoreBinaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula04/ArvoreBinariaApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aula04/Nodo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula05/AVLTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula05/AVLTreeApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/aula05/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,18 +57,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ArvoreBinariaApp.executor": "Run",
-    "Application.InverterFila.executor": "Run",
-    "Application.ListaEncadeadaApp.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/giovane.barcelos/IdeaProjects/ed4n/src/aula04"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ArvoreBinariaApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InverterFila.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListaEncadeadaApp.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/giovane.barcelos/IdeaProjects/ed4n/src/aula04&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="aula04" />
@@ -78,7 +78,20 @@
       <recent name="C:\Users\giovane.barcelos\IdeaProjects\ed4n\src\aula04" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArvoreBinariaApp">
+  <component name="RunManager" selected="Application.AVLTreeApp">
+    <configuration name="AVLTreeApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aula05.AVLTreeApp" />
+      <module name="ED" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aula05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ArvoreBinariaApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="aula04.ArvoreBinariaApp" />
       <module name="ED" />
@@ -120,6 +133,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AVLTreeApp" />
         <item itemvalue="Application.ArvoreBinariaApp" />
         <item itemvalue="Application.ListaEncadeadaApp" />
         <item itemvalue="Application.InverterFila" />
