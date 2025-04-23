@@ -1,8 +1,5 @@
 package aula05;
 
-import static java.lang.Long.rotateLeft;
-import static java.lang.Long.rotateRight;
-
 public class AVLTree {
     Node root = null;
 
