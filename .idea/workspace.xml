@@ -4,8 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc6d2392-6e83-43c2-98d1-e3aadfde0c02" name="Changes" comment="feat: inclusão e impressão de um árvore AVL">
+    <list default="true" id="dc6d2392-6e83-43c2-98d1-e3aadfde0c02" name="Changes" comment="feat: árvore AVL">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/simulado01/PilhaStringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula01/MaiorMenor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula01/MaiorMenor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula01/MediaValoresArraylist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula01/MediaValoresArraylist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula01/SomaElementos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula01/SomaElementos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula02/InverterFila.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula02/InverterFila.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula03/ListaEncadeada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula03/ListaEncadeada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula03/ListaEncadeadaApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula03/ListaEncadeadaApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula03/Nodo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula03/Nodo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula04/ArvoreBinaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula04/ArvoreBinaria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula04/ArvoreBinariaApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula04/ArvoreBinariaApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula04/Nodo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula04/Nodo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula05/AVLTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula05/AVLTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula05/AVLTreeApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula05/AVLTreeApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/aula05/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula05/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/simulado01/PilhaString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/simulado01/PilhaString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,29 +75,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AVLTreeApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArvoreBinariaApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InverterFila.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ListaEncadeadaApp.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/giovane.barcelos/IdeaProjects/ed4n/src/aula04&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AVLTreeApp.executor": "Run",
+    "Application.ArvoreBinariaApp.executor": "Run",
+    "Application.InverterFila.executor": "Run",
+    "Application.ListaEncadeadaApp.executor": "Run",
+    "JUnit.PilhaStringTest.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/giovane.barcelos/IdeaProjects/ed4n",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.19655173",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="aula04" />
       <recent name="aula03" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\giovane.barcelos\IdeaProjects\ed4n\" />
       <recent name="C:\Users\giovane.barcelos\IdeaProjects\ed4n\src\aula04" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\giovane.barcelos\IdeaProjects\ed4n\src\test\java" />
+      <recent name="C:\Users\giovane.barcelos\IdeaProjects\ed4n\src\main\java" />
+      <recent name="C:\Users\giovane.barcelos\IdeaProjects\ed4n\src\main" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="simulado01" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="simulado01" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.AVLTreeApp">
+  <component name="RunManager" selected="JUnit.PilhaStringTest">
     <configuration name="AVLTreeApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="aula05.AVLTreeApp" />
       <module name="ED" />
@@ -129,8 +169,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PilhaStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SimuladoA1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="simulado01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="simulado01" />
+      <option name="MAIN_CLASS_NAME" value="simulado01.PilhaStringTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PilhaStringTest" />
         <item itemvalue="Application.AVLTreeApp" />
         <item itemvalue="Application.ArvoreBinariaApp" />
         <item itemvalue="Application.ListaEncadeadaApp" />
@@ -170,7 +226,23 @@
       <option name="project" value="LOCAL" />
       <updated>1743640132386</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: pilha string">
+      <option name="closed" value="true" />
+      <created>1745448296318</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1745448296318</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: árvore AVL">
+      <option name="closed" value="true" />
+      <created>1745448320120</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1745448320120</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -188,6 +260,8 @@
     <MESSAGE value="feat: revisão de array e arraylist" />
     <MESSAGE value="feat: lista encadeada" />
     <MESSAGE value="feat: inclusão e impressão de um árvore AVL" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: inclusão e impressão de um árvore AVL" />
+    <MESSAGE value="feat: pilha string" />
+    <MESSAGE value="feat: árvore AVL" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: árvore AVL" />
   </component>
 </project>

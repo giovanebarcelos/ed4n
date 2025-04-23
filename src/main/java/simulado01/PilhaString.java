@@ -3,7 +3,7 @@ package simulado01;
 /*
   1 ponto
   Implemente uma classe PilhaString com:
-  - Array de Strings (tamanho fixo 10)
+  - Array de Strin  gs (tamanho fixo 10)
   - Métodos: empilhar(String), desempilhar(), estaVazia(), topo()
 */
 
