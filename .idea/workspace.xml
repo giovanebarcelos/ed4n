@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc6d2392-6e83-43c2-98d1-e3aadfde0c02" name="Changes" comment="chore: configuração para teste unitário com junit e maven">
-      <change afterPath="$PROJECT_DIR$/src/main/java/simulado01/FilaInteiros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/simulado01/FilaInteirosTest.java" afterDir="false" />
+    <list default="true" id="dc6d2392-6e83-43c2-98d1-e3aadfde0c02" name="Changes" comment="feat: fila de inteiros">
+      <change afterPath="$PROJECT_DIR$/src/main/java/simulado01/ListaSimples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/simulado01/ListaSimplesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +63,7 @@
     "Application.InverterFila.executor": "Run",
     "Application.ListaEncadeadaApp.executor": "Run",
     "JUnit.FilaInteirosTest.executor": "Run",
+    "JUnit.ListaSimplesTest.executor": "Run",
     "JUnit.PilhaStringTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -97,7 +98,7 @@
       <recent name="simulado01" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FilaInteirosTest">
+  <component name="RunManager" selected="JUnit.ListaSimplesTest">
     <configuration name="AVLTreeApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="aula05.AVLTreeApp" />
       <module name="ED" />
@@ -124,19 +125,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListaEncadeadaApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aula03.ListaEncadeadaApp" />
-      <module name="ED" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="aula03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FilaInteirosTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SimuladoA1" />
       <extension name="coverage">
@@ -147,6 +135,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="simulado01" />
       <option name="MAIN_CLASS_NAME" value="simulado01.FilaInteirosTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListaSimplesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SimuladoA1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="simulado01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="simulado01" />
+      <option name="MAIN_CLASS_NAME" value="simulado01.ListaSimplesTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -169,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ListaSimplesTest" />
         <item itemvalue="JUnit.FilaInteirosTest" />
         <item itemvalue="JUnit.PilhaStringTest" />
         <item itemvalue="Application.AVLTreeApp" />
         <item itemvalue="Application.ArvoreBinariaApp" />
-        <item itemvalue="Application.ListaEncadeadaApp" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +236,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745449530970</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat: fila de inteiros">
+      <option name="closed" value="true" />
+      <created>1745450282289</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1745450282289</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -254,6 +265,7 @@
     <MESSAGE value="feat: pilha string" />
     <MESSAGE value="feat: árvore AVL" />
     <MESSAGE value="chore: configuração para teste unitário com junit e maven" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: configuração para teste unitário com junit e maven" />
+    <MESSAGE value="feat: fila de inteiros" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: fila de inteiros" />
   </component>
 </project>
