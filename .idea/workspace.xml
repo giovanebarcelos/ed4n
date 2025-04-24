@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc6d2392-6e83-43c2-98d1-e3aadfde0c02" name="Changes" comment="feat: lista simples">
-      <change afterPath="$PROJECT_DIR$/src/main/java/simulado01/ListaDupla.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/simulado01/ListaDuplaTest.java" afterDir="false" />
+    <list default="true" id="dc6d2392-6e83-43c2-98d1-e3aadfde0c02" name="Changes" comment="feat: lita duplamente encadeada">
+      <change afterPath="$PROJECT_DIR$/src/main/java/simulado01/ArvoreBinaria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/simulado01/ArvoreBinariaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +62,7 @@
     "Application.ArvoreBinariaApp.executor": "Run",
     "Application.InverterFila.executor": "Run",
     "Application.ListaEncadeadaApp.executor": "Run",
+    "JUnit.ArvoreBinariaTest.executor": "Run",
     "JUnit.FilaInteirosTest.executor": "Run",
     "JUnit.ListaDuplaTest.executor": "Run",
     "JUnit.ListaSimplesTest.executor": "Run",
@@ -99,16 +100,18 @@
       <recent name="simulado01" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ListaDuplaTest">
-    <configuration name="AVLTreeApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aula05.AVLTreeApp" />
-      <module name="ED" />
+  <component name="RunManager" selected="JUnit.ArvoreBinariaTest">
+    <configuration name="ArvoreBinariaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SimuladoA1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aula05.*" />
+          <option name="PATTERN" value="simulado01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="simulado01" />
+      <option name="MAIN_CLASS_NAME" value="simulado01.ArvoreBinariaTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -175,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ArvoreBinariaTest" />
         <item itemvalue="JUnit.ListaDuplaTest" />
         <item itemvalue="JUnit.ListaSimplesTest" />
         <item itemvalue="JUnit.FilaInteirosTest" />
         <item itemvalue="JUnit.PilhaStringTest" />
-        <item itemvalue="Application.AVLTreeApp" />
       </list>
     </recent_temporary>
   </component>
@@ -255,7 +258,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745452925424</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat: lita duplamente encadeada">
+      <option name="closed" value="true" />
+      <created>1745453714089</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1745453714089</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -278,6 +289,7 @@
     <MESSAGE value="chore: configuração para teste unitário com junit e maven" />
     <MESSAGE value="feat: fila de inteiros" />
     <MESSAGE value="feat: lista simples" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: lista simples" />
+    <MESSAGE value="feat: lita duplamente encadeada" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: lita duplamente encadeada" />
   </component>
 </project>
