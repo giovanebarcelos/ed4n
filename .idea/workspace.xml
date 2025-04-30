@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc6d2392-6e83-43c2-98d1-e3aadfde0c02" name="Changes" comment="feat: lita duplamente encadeada">
-      <change afterPath="$PROJECT_DIR$/src/main/java/simulado01/ArvoreBinaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/simulado01/ArvoreBinariaTest.java" afterDir="false" />
+    <list default="true" id="dc6d2392-6e83-43c2-98d1-e3aadfde0c02" name="Changes" comment="feat: árvore binária">
+      <change afterPath="$PROJECT_DIR$/src/main/java/aula07/Lista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aula07/ListaApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/aula07/No.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,6 +62,7 @@
     "Application.AVLTreeApp.executor": "Run",
     "Application.ArvoreBinariaApp.executor": "Run",
     "Application.InverterFila.executor": "Run",
+    "Application.ListaApp.executor": "Run",
     "Application.ListaEncadeadaApp.executor": "Run",
     "JUnit.ArvoreBinariaTest.executor": "Run",
     "JUnit.FilaInteirosTest.executor": "Run",
@@ -81,6 +83,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="aula07" />
       <recent name="aula04" />
       <recent name="aula03" />
     </key>
@@ -100,7 +103,20 @@
       <recent name="simulado01" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ArvoreBinariaTest">
+  <component name="RunManager" selected="Application.ListaApp">
+    <configuration name="ListaApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aula07.ListaApp" />
+      <module name="SimuladoA1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aula07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ArvoreBinariaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SimuladoA1" />
       <extension name="coverage">
@@ -161,28 +177,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PilhaStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SimuladoA1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="simulado01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="simulado01" />
-      <option name="MAIN_CLASS_NAME" value="simulado01.PilhaStringTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ListaApp" />
         <item itemvalue="JUnit.ArvoreBinariaTest" />
         <item itemvalue="JUnit.ListaDuplaTest" />
         <item itemvalue="JUnit.ListaSimplesTest" />
         <item itemvalue="JUnit.FilaInteirosTest" />
-        <item itemvalue="JUnit.PilhaStringTest" />
       </list>
     </recent_temporary>
   </component>
@@ -266,7 +267,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745453714089</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feat: árvore binária">
+      <option name="closed" value="true" />
+      <created>1745454546775</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1745454546775</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -290,6 +299,7 @@
     <MESSAGE value="feat: fila de inteiros" />
     <MESSAGE value="feat: lista simples" />
     <MESSAGE value="feat: lita duplamente encadeada" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: lita duplamente encadeada" />
+    <MESSAGE value="feat: árvore binária" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: árvore binária" />
   </component>
 </project>
