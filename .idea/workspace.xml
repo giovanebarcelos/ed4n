@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc6d2392-6e83-43c2-98d1-e3aadfde0c02" name="Changes" comment="feat: árvore binária">
-      <change afterPath="$PROJECT_DIR$/src/main/java/aula07/Lista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/aula07/ListaApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/aula07/No.java" afterDir="false" />
+    <list default="true" id="dc6d2392-6e83-43c2-98d1-e3aadfde0c02" name="Changes" comment="feat: lista encadeada simples em Java com as operações básicas: inserção no final, remoção e exibição dos elementos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/aula07/Lista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/aula07/Lista.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +71,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/giovane.barcelos/IdeaProjects/ed4n",
+    "last_opened_file_path": "C:/Users/giovane.barcelos/IdeaProjects/PSC",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.19655173",
@@ -103,7 +101,7 @@
       <recent name="simulado01" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ListaApp">
+  <component name="RunManager" selected="JUnit.ArvoreBinariaTest">
     <configuration name="ListaApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="aula07.ListaApp" />
       <module name="SimuladoA1" />
@@ -179,8 +177,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ListaApp" />
         <item itemvalue="JUnit.ArvoreBinariaTest" />
+        <item itemvalue="Application.ListaApp" />
         <item itemvalue="JUnit.ListaDuplaTest" />
         <item itemvalue="JUnit.ListaSimplesTest" />
         <item itemvalue="JUnit.FilaInteirosTest" />
@@ -275,7 +273,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745454546775</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="feat: lista encadeada simples em Java com as operações básicas: inserção no final, remoção e exibição dos elementos">
+      <option name="closed" value="true" />
+      <created>1746056628548</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1746056628548</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -300,6 +306,19 @@
     <MESSAGE value="feat: lista simples" />
     <MESSAGE value="feat: lita duplamente encadeada" />
     <MESSAGE value="feat: árvore binária" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: árvore binária" />
+    <MESSAGE value="feat: lista encadeada simples em Java com as operações básicas: inserção no final, remoção e exibição dos elementos" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: lista encadeada simples em Java com as operações básicas: inserção no final, remoção e exibição dos elementos" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/aula07/No.java</url>
+          <line>3</line>
+          <properties field="proximo" class="aula07.No" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

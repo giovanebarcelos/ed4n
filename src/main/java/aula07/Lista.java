@@ -49,12 +49,16 @@ public class Lista {
             return;
         }
 
+        No temp = getUltimoNo();
+        temp.proximo = novoNo;
+    }
+
+    private No getUltimoNo() {
         No temp = this.inicio;
         while (temp.proximo != null) {
             temp = temp.proximo;
         }
-
-        temp.proximo = novoNo;
+        return temp;
     }
 
     public void remover(int numero) {
